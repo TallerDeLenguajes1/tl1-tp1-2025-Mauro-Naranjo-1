@@ -7,5 +7,9 @@
 3. El archivo codigo_sin_funcionar.c 
 * no llamaba a la biblioteca <stdio.h>, 
 * tenia errores de sintaxis como son la falta de ; y &,
-* y la funcion duplicar_numero recibia el dato como por valor y no devolvia nada, al pasarlo por referencia funciona y se ve el resultado esperado.
+* y la funcion duplicar_numero recibia el dato como por valor y no devolvia nada, al pasarlo por referencia funciona y se ve el resultado esperado.  
    El archivo codigo_misterioso.c invierte un numero entero, luego lo divide a la mitad entera, y por ultimo suma los digitos que componen al numero a este, y los nuevos nombres describen que variable representan y explican lo que hace cada funcion.
+
+4. 
+* Los apartados 2 y 3 tienen el mismo resultado ya que la direccion de memoria que almacena el puntero es la de la variable.
+* En el apartado 4 la direccion de memoria que se muestra es distinta a las anteriores ya que esta es la direccion del puntero.
